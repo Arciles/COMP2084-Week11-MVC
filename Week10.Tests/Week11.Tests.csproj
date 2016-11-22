@@ -92,7 +92,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Week10\Week10.csproj">
+    <ProjectReference Include="..\Week10\Week11.csproj">
       <Project>{81E61B3C-0539-4C3A-BCDB-1FB8A2031A12}</Project>
       <Name>Week10</Name>
     </ProjectReference>
