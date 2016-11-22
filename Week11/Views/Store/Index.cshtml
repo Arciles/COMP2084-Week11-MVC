@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>Welcome to the MVC Music Store</p>
+<div>@Html.ActionLink("Browse", "Browse", "Store")</div>
+<div>@Html.ActionLink("Songs you can buy or rent", "Index", "Songs")</div>

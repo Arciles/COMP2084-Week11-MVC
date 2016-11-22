@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Browse";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Our Top three songs of the day!</h2>
+
+<ul>
+    @foreach (var song in ViewBag.Songs)
+    {
+        <li>@song</li>
+    }
+</ul>
